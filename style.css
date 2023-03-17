@@ -12,7 +12,7 @@ body {
     display: flex;
     text-align: center;
     color: #7453BB;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 10%;
     padding-right: 10%;
     background-color: black;
@@ -23,22 +23,37 @@ body {
 nav {
     display: flex;
     background-color: black;
+    color: white;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     opacity: 80%;
-    color: white;
-    justify-content: space-between;
-    padding-left: 10%;
+    justify-content: space-around;
+    padding-left: 5%;
     padding-right: 10%;
+    align-items: center;
 }
 
-nav button {
-    border-radius: 50px;
+.titel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logga {
+    width: 20%;
+    height: auto;
+}
+
+.menu-button {
     background-color: black;
     color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Irish Grover', cursive;
 }
 
 h1 {
     font-family: 'Irish Grover', cursive;
     color: white;
+
 }
