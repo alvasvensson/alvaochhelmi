@@ -105,7 +105,7 @@ nav {
     font-family: 'Irish Grover', cursive;
     text-align: center;
     font-size: 2rem;
-    margin: 240px 0 0 0;
+    margin: 240px 0 2% 0;
     color: #845DD6;
 }
 
@@ -136,12 +136,8 @@ nav {
 .face {
     width: auto;
     height: 64px;
-    padding: 0 5% 0 10%;
-    border-radius: 10px;
-}
-
-.person img {
-    border-radius: 10%;
+    margin: 0 5% 0 10%;
+    border-radius: 32px;
 }
 
 .person h3 {
@@ -163,10 +159,29 @@ nav {
     padding: 2% 5% 5% 5%;
 }
 
+.newsletter{
+    background-image: url("exbild.png");
+}
 
+.newsletter h2{
+    font-family: 'Irish Grover', cursive;
+    color: white;
+    padding: 5% 0 10% 0;
+    margin: 5% 0 0 0;
+    text-align: center;
+}
 
 footer {
     display: flex;
+    justify-content: center;
     background-color: black;
-    margin-top: 5%;
+    
+    color: white;
+}
+
+footer img{
+    width: auto;
+    height: 64px;
+    border-radius: 32px;
+    margin: 5px;
 }
