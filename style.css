@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-body {
+
+.index {
     margin: 0;
     background-color: #302F54;
 }
@@ -47,7 +48,7 @@ body {
 
 .phone-menu.active {
     display: flex;
-    text-align: center;
+    align-items: center;
     color: #7453BB;
     justify-content: space-around;
     padding-left: 10%;
@@ -57,6 +58,17 @@ body {
     border-radius: 20px;
     position: fixed;
     width: 80%;
+}
+
+.phone-menu.active a {
+    align-items: center;
+    text-decoration: none;
+    color: #7453BB;
+    font-family: 'Nunito', sans-serif;
+}
+
+.phone-menu.active a:hover {
+    color: rgb(218, 179, 255);
 }
 
 nav {
@@ -100,6 +112,9 @@ nav {
     font-family: 'Irish Grover', cursive;
 }
 
+/* index  */
+
+
 .our-games h2 {
     text-decoration: none;
     font-family: 'Irish Grover', cursive;
@@ -109,12 +124,35 @@ nav {
     color: #845DD6;
 }
 
-.our-games img {
-    display: block;
+.game img {
+    width: 70%;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.game a {
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    left: 15%;
     width: 70%;
-    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: black;
+    opacity: 0.8;
+    margin: 0;
 }
 
 .about h2 {
@@ -159,11 +197,11 @@ nav {
     padding: 2% 5% 5% 5%;
 }
 
-.newsletter{
+.newsletter {
     background-image: url("exbild.png");
 }
 
-.newsletter h2{
+.newsletter h2 {
     font-family: 'Irish Grover', cursive;
     color: white;
     padding: 5% 0 10% 0;
@@ -171,15 +209,203 @@ nav {
     text-align: center;
 }
 
+/* alvas game */
+.game1 {
+    margin: 0;
+    background-color: #2B4927;
+}
+
+.purchase1 h2 {
+    text-decoration: none;
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin: 240px 0 2% 0;
+    color: #C87AFF;
+}
+
+.buylist1 {
+    /* display: flex; */
+    background-color: #755E41;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.buylist1 img {
+    width: auto;
+    height: 50px;
+    border-radius: 32px;
+}
+
+.store {
+    display: flex;
+    padding: 2% 4% 2% 4%;
+    align-items: center;
+}
+
+.store h3 {
+    font-size: 1.2rem;
+    margin-left: 5%;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.features1 h2 {
+    text-decoration: none;
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin: 5% 0 2% 0;
+    color: #C87AFF;
+}
+
+.feature img {
+    width: 70%;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature p {
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    left: 15%;
+    width: 70%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: black;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.detail p{
+    margin: 2% 10% 8% 10%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/* .line{
+    color: aqua;
+    background-color: aqua;
+    margin: 2%;
+    border-radius: 10px;
+} */
+
+/* helmis game */
+.game2 {
+    margin: 0;
+    background-color: #3A1C3D;
+}
+
+.purchase2 h2 {
+    text-decoration: none;
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin: 240px 0 2% 0;
+    color: #9F4980;
+}
+
+.buylist2 {
+    /* display: flex; */
+    background-color: #68386C;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.buylist2 img {
+    width: auto;
+    height: 50px;
+    border-radius: 32px;
+}
+
+.store {
+    display: flex;
+    padding: 2% 4% 2% 4%;
+    align-items: center;
+}
+
+.store h3 {
+    font-size: 1.2rem;
+    margin-left: 5%;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.features2 h2 {
+    text-decoration: none;
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin: 5% 0 2% 0;
+    color: #9F4980;
+}
+
+.feature img {
+    width: 70%;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature p {
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    left: 15%;
+    width: 70%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: black;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.detail p{
+    margin: 2% 10% 8% 10%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+/* footer */
 footer {
     display: flex;
     justify-content: center;
     background-color: black;
-    
     color: white;
 }
 
-footer img{
+footer img {
     width: auto;
     height: 64px;
     border-radius: 32px;
